@@ -13,8 +13,14 @@ just create a JSON file and copy paste the code snippet.
 to generate the questions, i recomend GPT4. just upload a pdf to gpt4 and ask it to generate questions in the format and copy paste them into jour JSON file.
 Now the questions are ready for upload.
 
+Before importing a new chapter of questions, you must first create a new topic. these topics represent different courses, where you can organize your questions. 
+that way all your course questions are stored separately and you can prepare for each course individually
+
 the menubar select chapter will automatically update after the import and make your imported questions available to select. 
 
 under file->view questions, you can see the level that your questions are at
 
 Future ideas: Get the GPT4 api into the project and generate questions and import them automatically by just importing the pdf into this program directly
+
+if you want you can simply delete all the questions and topics with file->delete. but just erasing the database file is easyer and less buggy. 
+the database file will be created a new upon re running the program
